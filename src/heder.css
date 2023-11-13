@@ -1,3 +1,10 @@
+.heder{
+    margin-top: 20px;
+  }
+  .imgevolucion{
+     width: 100%;
+    
+  }
 .productosRescienteMenu{
     display: flex;
     padding: 1%;
@@ -11,7 +18,7 @@
 .containerTeclado{
     width: 270px;
     height: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(32, 29, 29, 0.5);
     margin-left: 2%;
     margin-top:10px ;
    
@@ -20,9 +27,15 @@
 .AccesoriosPerifericos{
     background-color: rgba(61, 144, 226, 0.9);
     height: 15%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-h3{
-    margin: 0;
+.h3accesorios{
+    margin: 0px;
+    text-align: center;
+
 }
 .img-rsz{
     width: 90%;

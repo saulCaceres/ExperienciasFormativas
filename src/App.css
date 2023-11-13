@@ -1,9 +1,11 @@
 body{
-  background-image: url('/public/fondo.png');
+  background-image: url('/public/fondo5.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   margin: 0;
   padding: 0;
+
+  
 }

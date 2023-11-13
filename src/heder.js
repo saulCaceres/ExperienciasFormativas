@@ -44,38 +44,38 @@ class Header extends Component {
                     <div className="productosRescienteMenu">
                         <div className="containerTeclado">
                             <div className="AccesoriosPerifericos">
-                                <h3>Accesorios y perifericos</h3>
+                                <h3 className="h3accesorios">Accesorios y perifericos</h3>
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                            {rss}
+                                {rss}
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button> 
+                                <button><a>ver mas</a></button>
                             </div>
-                           
-                            
+
+
                         </div>
                         <div className="containerTeclado">
-                        <div className="AccesoriosPerifericos">
-                                <h3>pc's</h3>
+                            <div className="AccesoriosPerifericos">
+                                <h3 className="h3accesorios">pc's</h3>
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                            {monitores}
+                                {monitores}
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button> 
+                                <button><a>ver mas</a></button>
                             </div>
-                           
+
                         </div>
                         <div className="containerTeclado">
-                        <div className="AccesoriosPerifericos">
-                                <h3>Laptops</h3>
+                            <div className="AccesoriosPerifericos">
+                                <h3 className="h3accesorios">Laptops</h3>
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                            {Alaptops}
+                                {Alaptops}
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button> 
+                                <button><a>ver mas</a></button>
                             </div>
                         </div>
                     </div>
