@@ -1,0 +1,110 @@
+.container-contactanos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    margin-bottom: 20px;
+}
+.subContainer-contactanos{
+    width: 95%;
+ 
+    background-color: rgb(103, 132, 132,0.5);
+    border-radius: 10px;
+    display: flex;
+}
+.datos{
+  
+    width: 85%;
+    
+  
+}
+.datos_contactos{
+    width: 50%;
+   
+    height: 100%; 
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+.formulario-contactanos{
+    width: 50%;
+
+    height: 100%;
+    
+}
+.contaner_telefono{
+ 
+    display: flex;
+    align-items: center;
+     justify-content: flex-start;
+     color: white
+}
+.imgTel{
+width: 30px;
+height: 90%;
+margin: 10px;
+
+}
+.formulario{
+    max-width: 490px;
+    margin: 0 auto;
+   
+   
+   
+   color: white;
+}
+.form-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color :rgba(32, 31, 31, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    
+  }
+  .titleForumlario{
+text-align: center;
+color: white;
+  }
+
+  .form-container h1 {
+    margin-top: 0;
+  }
+
+  .form-container label, .form-container input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .form-container input[type="text"], .form-container input[type="email"], .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .form-container button {
+    background-color: #e0e0e0;
+    color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+   button:hover {
+    background-color: #4c45a0;
+  }
+.buttoncontactanos{
+    display: flex;
+    justify-content: center;
+}

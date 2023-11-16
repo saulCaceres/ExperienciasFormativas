@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import '../src/heder.css'
-import img1 from '../src/img/Menucomputadoras.webp';
 import img2 from '../src/img/Menucomputadoras1.webp';
 import img3 from '../src/img/Menucomputadoras2.jpeg';
 import img4 from '../src/img/Menucomputadoras3.jpg';
@@ -75,7 +74,7 @@ class Header extends Component {
                                 {Alaptops}
                             </div>
                             <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button>
+                                <button className="ver-mas"><a>ver mas</a></button>
                             </div>
                         </div>
                     </div>

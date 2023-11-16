@@ -1,4 +1,4 @@
-h1{
+.compustore{
     text-align: center;
     margin: 0px;
     margin-bottom: 10px;
@@ -7,7 +7,8 @@ h1{
 .cabecera{
     background-color: rgba(33, 31, 31, 0.7);    
     padding-top: 15px;
-    padding-bottom: 5px;  
+    padding-bottom: 5px; 
+    width: 100%; 
 }
 .bloque{
     display: inline-block;

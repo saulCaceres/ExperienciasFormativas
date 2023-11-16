@@ -1,0 +1,80 @@
+.fondoTeclado{
+    margin-top: 1%;
+    width: 100%;
+}
+.text-teclado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-390%, -350%);
+    color: white;
+    font-size: 34px;
+    font-weight: bold;   
+  }
+  .NuestrosProductos{
+    color: white;
+    text-align: center;
+  }
+  .cajasTeclado{
+    width: 23%;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.9);
+    margin: 7px;
+    border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  .imgTeclados{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+  }
+  .containerTEclado{
+    background-color: rgb(102, 102, 119,0.4);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 40px;
+    
+  
+  
+  }
+  .contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textTeclado{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .TextPrecio{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 0 ;
+  }
+  .buttonComprar{
+    width: 85%;
+    height: 27px;
+    background-color: rgb(83, 79, 79,0.5);
+    border-radius: 5px;
+    color: rgb(238, 231, 231);
+    border: 0;
+    
+  }
+  .Buttom-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }

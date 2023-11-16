@@ -3,6 +3,7 @@ import '../src/Menu.css';
 import MenuPrincipal from './MenuPrincipal';
 import Header from '../src/heder';
 import Footer from "./footer";
+import { Route } from "react-router-dom";
 
 
 class Menu extends Component {
@@ -11,8 +12,9 @@ class Menu extends Component {
 
         return (
             <div>
-               <MenuPrincipal/>
-                <Header />
+                
+               {/* <MenuPrincipal/> */}
+                {/* <Header /> */}
                 <Footer/>
             </div>
 
