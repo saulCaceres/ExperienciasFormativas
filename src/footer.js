@@ -5,9 +5,9 @@ import twitter from '../src/img/twitter.png';
 import '../src/footer.css';
 
 const rs = new Array(facebook, instagram, twitter);
-const ListFotter = new Array('Teclados Mecanicos', 'Adifonos Gamer', 'Mouses Gamer','Pantallas Gamer');
-const datos = new Array('AV inca Garcilazo de la vega 1251 tienda 243 y 167- cerado de lima 15001 - peru');
-const telefono = new Array('942-954414 Saulo Quispe','934-226661 Nayeli Toto');
+const ListFotter = new Array('Teclados Mecanicos', 'Audifonos Gamer', 'Mouses Gamer','Pantallas Gamer');
+const datos = new Array('Av. Muñoz Najar 302 Segundo piso Cercado-Arequipa');
+const telefono = new Array('942-954414 Saulo Quispe','934-226661 Nayeli Tito','982-979815 Jhon Puma','937-628731 Alejandra Coaquira');
 
 
 const rss = rs.map((origen) => React.createElement('img', { className: 'img-rss', src: origen }));

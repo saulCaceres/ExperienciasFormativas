@@ -4,30 +4,53 @@ import img2 from '../src/img/Menucomputadoras1.webp';
 import img3 from '../src/img/Menucomputadoras2.jpeg';
 import img4 from '../src/img/Menucomputadoras3.jpg';
 import img5 from '../src/img/Menucomputadoras4.jpg';
-import teclado from '../src/img/teclado.png';
-import minitores from '../src/img/monito.png';
-import laptops from '../src/img/laptops.png';
+import teclado from '../src/img/NuevosIngresos/ingresos22.jpg';
+import monitores from '../src/img/monito.png';
+import laptops from '../src/img/NuevosIngresos/ingresos3.jpg';
+import Audifonos from '../src/img/NuevosIngresos/ingresos18.jpg';
+import Mouses from '../src/img/NuevosIngresos/ingresos10.jpeg';
 
 const imgs = [img2, img3, img4, img5];
-const img = [teclado];
-const minitor = [minitores];
-const laptop = [laptops];
+const contenedor = [{ nombre: 'Accesorios y perifericos', imgenes: teclado, button: 'ver mas' },
+{
+    nombre: 'Pc', imgenes: monitores, button: 'ver mas'
+},
+{
+    nombre: 'Laptos', imgenes: laptops, button: 'ver mas'
+},
+{
+    nombre: 'Audifonos', imgenes: Audifonos, button: 'ver mas'
+},{
+    nombre: 'Mouses', imgenes: Mouses, button: 'ver mas'
+},
+];
 
-const rss = img.map((origen) => React.createElement('img', { className: 'img-rsz', src: origen }));
-const monitores = minitor.map((origen) => React.createElement('img', { className: 'imgMoinitor', src: origen }));
-const Alaptops = laptop.map((origen) => React.createElement('img', { className: 'laptops', src: origen }));
 
 class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
             c: 0,
+            hello: contenedor.map((item, index) => (
+                <div className="containerTeclado" key={index}>
+                    <div className="AccesoriosPerifericos">
+                        <h3 className="h3accesorios">{item.nombre}</h3>
+                    </div>
+                    <div className="AccesoriosPerifericosteclados">
+                        <img className="imgmenuprincipal" src={item.imgenes} alt="imagen no encontrada"/>
+                    </div>
+                    <div className="AccesoriosPerifericosteclados">
+                        <button className="ver-mas"><a>{item.button}</a></button>
+                    </div>
+
+                </div>
+            ))
 
         };
     };
     state = {
         c: 0,
-        teclado: new Array()
+        hello: new Array()
     };
 
     render() {
@@ -39,44 +62,9 @@ class Header extends Component {
                 <img className="imgevolucion" src={imgs[this.state.c]} alt="img no encontrado" />
 
                 <div>
-                    <h3>Nuestros Productos mas recientes </h3>
+                    <h1 className="productos-variados">Nuestros Productos mas recientes </h1>
                     <div className="productosRescienteMenu">
-                        <div className="containerTeclado">
-                            <div className="AccesoriosPerifericos">
-                                <h3 className="h3accesorios">Accesorios y perifericos</h3>
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                {rss}
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button>
-                            </div>
-
-
-                        </div>
-                        <div className="containerTeclado">
-                            <div className="AccesoriosPerifericos">
-                                <h3 className="h3accesorios">pc's</h3>
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                {monitores}
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                <button><a>ver mas</a></button>
-                            </div>
-
-                        </div>
-                        <div className="containerTeclado">
-                            <div className="AccesoriosPerifericos">
-                                <h3 className="h3accesorios">Laptops</h3>
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                {Alaptops}
-                            </div>
-                            <div className="AccesoriosPerifericosteclados">
-                                <button className="ver-mas"><a>ver mas</a></button>
-                            </div>
-                        </div>
+                        {this.state.hello}
                     </div>
 
                 </div>

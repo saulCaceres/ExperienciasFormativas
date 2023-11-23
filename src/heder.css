@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 
 }
 .containerTeclado{
@@ -43,26 +43,31 @@
     text-align: center;
     
 }
+.imgmenuprincipal{
+    width: 100%;
+
+}
 .AccesoriosPerifericosteclados{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .ver-mas{
-    width: 170px;
-    height: 30px;
+    width: 90%;
+    height: 35px;
     border-radius: 10px;
-    background-color: rgb(0, 38, 255,0.4);
+    background-color: rgba(82, 103, 206, 0.9);
     text-align: center;
     margin-top: 40px;
     border: white;
     color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
-.laptops{
-    width: 60%;
-    margin-top: 20px;
-}
-.imgMoinitor{
-    margin-top: 30px;
-    width: 70%;
+.productos-variados{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 45px;
 }
